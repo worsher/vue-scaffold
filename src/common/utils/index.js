@@ -6,6 +6,6 @@
  * @desc 全局工具函数
  */
 
-export {
+export default{
 	
 }
