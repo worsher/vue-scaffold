@@ -1,7 +1,7 @@
 import Vue from 'vue'
 import App from './App.vue'
-import router from './router'
-import store from './store'
+import router from './router/'
+import store from './store/'
 
 import lodash from 'lodash'
 import axios from 'axios'
@@ -12,7 +12,7 @@ import CommonComponents from "@/components/common"
 import 'font-awesome/scss/font-awesome.scss'
 
 Vue.use(CommonComponents)
-console.log(process.env.VUE_APP_TITLE)
+console.log(process.env.NODE_ENV)
 // http response 拦截器 全局拦截，抛出错误
 axios.interceptors.response.use(
     response => {

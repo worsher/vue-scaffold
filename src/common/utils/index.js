@@ -5,7 +5,7 @@
  * @version 1.0.0
  * @desc 全局工具函数
  */
+const utils = {
 
-export default{
-	
 }
+export default utils
