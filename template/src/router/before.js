@@ -6,6 +6,7 @@
  * @desc 路由加载前的路由守卫
  */
 
+//eslint-disable-next-line
 export default ((to , from , next) => {
     next();
 })

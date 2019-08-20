@@ -1,6 +1,6 @@
 {
   "name": "test",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "private": true,
   "scripts": {
     "dev" : "vue-cli-service serve",
@@ -37,7 +37,10 @@
       "plugin:vue/essential",
       "eslint:recommended"
     ],
-    "rules": {},
+    "rules": {
+      "no-mixed-spaces-and-tabs" : [0],
+      "no-console": "off"
+    },
     "parserOptions": {
       "parser": "babel-eslint"
     }

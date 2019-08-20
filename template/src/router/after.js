@@ -6,6 +6,7 @@
  * @desc 路由完成后执行
  */
 
+//eslint-disable-next-line
 export default ((to , from) => {
     
 })
