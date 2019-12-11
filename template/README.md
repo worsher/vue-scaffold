@@ -9,6 +9,8 @@
 ## 使用的第三方工具库
 * axios
 * lodash
+* @babel/plugin-proposal-optional-chaining 使用可用链的babel编译库
+* vue-fragment 兼容vue3.0fragment组件，解决组件单一根元素问题
 
 ## 路由配置懒加载
 增加before、after拦截路由执行前后

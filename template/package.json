@@ -1,11 +1,10 @@
 {
-  "name": "test",
+  "name": "vue-scaffold-template",
   "version": "0.1.1",
-  "private": true,
   "scripts": {
-    "dev" : "vue-cli-service serve",
-    "test" : "vue-cli-service build --mode test",
-    "build" : "vue-cli-service build --mode production",
+    "dev": "vue-cli-service serve",
+    "test": "vue-cli-service build --mode test",
+    "build": "vue-cli-service build --mode production",
     "lint": "vue-cli-service lint"
   },
   "dependencies": {
@@ -16,10 +15,12 @@
     "node-sass": "^4.12.0",
     "sass-loader": "^7.1.0",
     "vue": "^2.6.10",
+    "vue-fragment": "^1.5.1",
     "vue-router": "^3.0.3",
     "vuex": "^3.0.1"
   },
   "devDependencies": {
+    "@babel/plugin-proposal-optional-chaining": "^7.7.5",
     "@vue/cli-plugin-babel": "^3.9.0",
     "@vue/cli-plugin-eslint": "^3.9.0",
     "@vue/cli-service": "^3.9.0",
@@ -38,7 +39,9 @@
       "eslint:recommended"
     ],
     "rules": {
-      "no-mixed-spaces-and-tabs" : [0],
+      "no-mixed-spaces-and-tabs": [
+        0
+      ],
       "no-console": "off"
     },
     "parserOptions": {

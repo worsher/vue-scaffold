@@ -10,6 +10,10 @@ import utils from './common/utils'
 import CommonComponents from "@/components/common"
 //加载特殊字体
 import 'font-awesome/scss/font-awesome.scss'
+import { Plugin } from 'vue-fragment'
+
+//fragment插件
+Vue.use(Plugin)
 
 Vue.use(CommonComponents)
 console.log(process.env.NODE_ENV)
